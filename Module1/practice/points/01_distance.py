@@ -8,12 +8,12 @@ def distance(p1, p2):
     """
     Расстояние между двумя точками
     """
-    # TODO: напишите тело функции
+    return ((p1.x - p2.x) ** 2 + (p1.y - p2.y) ** 2) ** 0.5
 
 
 # Даны две точки на координатной плоскости
-point1 = Point(2, 4)
-point2 = Point(5, -2)
+point1 = Point(0, 0)
+point2 = Point(3, 4)
 
 dist = distance(point1, point2)  # Передаем объекты point1 и point2 в функцию
 
